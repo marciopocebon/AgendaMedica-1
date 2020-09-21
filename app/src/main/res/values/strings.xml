@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Agendamento Medico</string>
+    <string name="hint_nome">Nome Completo:</string>
+    <string name="hint_horario">Hora da Consulta:</string>
+    <string name="hint_data">Data da Consulta:</string>
+    <string name="hint_medico">Médico Responsável:</string>
+    <string name="hint_telefone">Telefone:</string>
+    <string name="hint_email">E_mail:</string>
+</resources>
