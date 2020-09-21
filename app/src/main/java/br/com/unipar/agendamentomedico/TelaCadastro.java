@@ -43,4 +43,9 @@ public class TelaCadastro extends AppCompatActivity {
         });
     }  //Fim da limpar, buttonLimpar
 
+    public void fechar (View v) {
+
+        finish();
+    }
+
 }
