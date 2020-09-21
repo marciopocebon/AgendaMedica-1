@@ -23,6 +23,8 @@ public class TelaCadastro extends AppCompatActivity {
         setContentView(R.layout.activity_tela_cadastro);
 
         Intent segundaTela = getIntent();
+
+        startActivity(segundaTela);
     }
 
     // Segue abaixo toda a implementação do btn Limpar
@@ -43,7 +45,7 @@ public class TelaCadastro extends AppCompatActivity {
         });
     }  //Fim da limpar, buttonLimpar
 
-    public void fechar (View v) {
+    public void fecharTela2 (View v) {
 
         finish();
     }
