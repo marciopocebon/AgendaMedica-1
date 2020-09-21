@@ -2,6 +2,7 @@ package br.com.unipar.agendamentomedico;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -20,6 +21,8 @@ public class TelaCadastro extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_tela_cadastro);
+
+        Intent segundaTela = getIntent();
     }
 
     // Segue abaixo toda a implementação do btn Limpar

@@ -24,4 +24,10 @@ public class MainActivity extends AppCompatActivity {
             Intent tela = new Intent(this, TelaCadastro.class);
             startActivity(tela);
         }
+
+        public void telaLista(View view){
+
+        Intent tela2 = new Intent(this, TelaCadastro.class);
+        startActivity(tela2);
+        }
 }
